@@ -17,13 +17,13 @@ const Navigation = () => {
         </Link>
         <a href="/#" data-activates="mobile-demo" className="button-collapse" style={{color: 'rgba(0, 181, 204, 1)'}}><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li><Link to='/home'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Home</h5></Link></li> 
+          <li><Link to='/'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Home</h5></Link></li> 
           <li><Link to='/about'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>About</h5></Link></li>
           <li><Link to='/contact'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Contact</h5></Link></li>
         </ul>
         <ul className="side-nav" id="mobile-demo" style={{backgroundColor: 'rgba(255,210,221, 1)'}}>
-        <li><a href='/home' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '20px'}}><p>DawnAldousOriginals</p></a></li>
-        <li><a href='/home' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Home</a></li>
+        <li><a href='/' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '20px'}}><p>DawnAldousOriginals</p></a></li>
+        <li><a href='/' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Home</a></li>
         <li><a href='/About' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>About</a></li>
         <li><a href='/Contact' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Contact</a></li>
   </ul>
