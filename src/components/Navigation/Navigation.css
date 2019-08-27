@@ -1,0 +1,70 @@
+nav ul a {
+    color: rgba(0, 181, 204, 1);
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(0, 181, 204, .5);
+    
+}
+
+h6 {
+color: rgba(0, 181, 204, 1);
+}
+
+h6:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(0, 181, 204, .5);
+    
+}
+
+nav {
+    background-color: rgba(255,210,221, 1);
+}
+
+.link {
+   color: rgba(255,210,221, 1);
+   display: inline-block;
+   padding: 10px 20px;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.dao {
+     color: rgba(255,210,221, 1);
+}
+.dao:hover {
+    color: rgba(255,210,221, .7);
+    
+}
+
+
+.link:hover {
+    color: rgba(255,210,221, .7);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  p {
+      padding-right: 15%;
+  }
+}
+
+.first-letter {
+  font-size: 2.5em;
+  line-height: 70px;
+  text-shadow: 2px 2px #000000;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-left: 12px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+
+
+

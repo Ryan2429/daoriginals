@@ -1,0 +1,73 @@
+img {
+  height: 100%;
+  max-height: 350px;
+  min-height: 180px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  /*handled transition with cross browser compatibility */
+
+  -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+   transition: all .4s ease-in-out;
+
+/* below is the box shadow from cssmatic.com for DESKTOP*/
+  -webkit-box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.05);
+        border: 3px solid rgba(255,210,221, 1);
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  img {
+    margin-bottom: 2px;
+    width: 120%;
+
+/* below is the box shadow from cssmatic.com for MOBILE*/
+    -webkit-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+    }
+    .column {
+      width: 19.5%;
+    }
+}
+
+figcaption {
+  margin-bottom: 2%;
+  margin-top: 8%;
+  text-align: center;
+}
+
+.text-color {
+ color: rgba(255,210,221, 1);
+ font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
