@@ -37,7 +37,7 @@ class Images extends React.Component {
     render() {
 
         return (
-            <div className='row text-color' style={{fontFamily: 'Playfair Display', lineHeight: '180%', letterSpacing: '2px'}}>
+            <div className='row text-color' style={{fontFamily: 'Playfair Display', lineHeight: '180%'}}>
                 <p style={{textAlign: 'center', fontSize: '2em', color: 'rgba(255,210,221, 1)', fontWeight: 'bold', fontFamily: 'Playfair Display', lineHeight: '180%'}}>
                    ~Welcome To My Gallery~
                     </p>
