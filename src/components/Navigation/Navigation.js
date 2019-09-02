@@ -22,8 +22,8 @@ const Navigation = () => {
           <li><Link to='/contact'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Contact</h5></Link></li>
         </ul>
         <ul className="side-nav" id="mobile-demo" style={{backgroundColor: 'rgba(255,210,221, 1)'}}>
-        <li><a href='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '20px'}}><p>DawnAldousOriginals</p></a></li>
-        <li><a href='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Home</a></li>
+        <li><Link to='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '20px'}}><p>DawnAldousOriginals</p></Link></li>
+        <li><Link to='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Home</Link></li>
         <li><Link to='/about' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>About</Link></li>
         <li><Link to='/contact' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Contact</Link></li>
   </ul>
