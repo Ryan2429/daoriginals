@@ -11,11 +11,11 @@ const Navigation = () => {
     <nav style={{marginBottom: '50px'}}>
       <div className="nav-wrapper" style={{fontFamily: 'Playfair Display', lineHeight: '180%'}}>
         <Link to='/daoriginals' className="brand-logo">
-        <h6 className="flow-text" style={{fontSize: '35px', paddingLeft: '30px', paddingTop: '5px', fontWeight: 'bold', letterSpacing: '2px'}}>
+        <h6 className="flow-text" style={{fontSize: '35px', paddingLeft: '30px', paddingTop: '5px', fontWeight: 'bold', paddingLeft: '10%'}}>
         DawnAldousOriginals
         </h6>
         </Link>
-        <a href="/#" data-activates="mobile-demo" className="button-collapse" style={{color: 'rgba(0, 181, 204, 1)', marginRight: '20px'}}><i className="material-icons">menu</i></a>
+        <a href="/#" data-activates="mobile-demo" className="button-collapse" style={{color: 'rgba(0, 181, 204, 1)'}}><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li><Link to='/daoriginals'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Home</h5></Link></li> 
           <li><Link to='/about'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>About</h5></Link></li>
