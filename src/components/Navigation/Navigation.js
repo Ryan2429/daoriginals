@@ -15,7 +15,7 @@ const Navigation = () => {
         DawnAldousOriginals
         </h6>
         </Link>
-        <a href="/#" data-activates="mobile-demo" className="button-collapse" style={{color: 'rgba(0, 181, 204, 1)'}}><i className="material-icons">menu</i></a>
+        <a href="/#" data-activates="mobile-demo" className="button-collapse" style={{color: 'rgba(0, 181, 204, 1)', marginRight: '20px'}}><i className="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li><Link to='/daoriginals'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>Home</h5></Link></li> 
           <li><Link to='/about'><h5 style={{fontSize: '28px', fontWeight: 'bold', marginTop: '16px', paddingRight: '20px'}}>About</h5></Link></li>
