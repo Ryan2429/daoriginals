@@ -12,9 +12,9 @@ class App extends React.Component {
             <Router>
                 <div style={{cursor: 'pointer'}}>
                     <Navigation />
-                    <Route path='/home' component={Images} />
-                    <Route path='/about' component={About} />
-                    <Route path='/contact' component={Contact} />
+                    <Route path='/daoriginals' component={Images} />
+                    <Route exact path='/about' component={About} />
+                    <Route exact path='/contact' component={Contact} />
                 </div>
             </Router>
         )
