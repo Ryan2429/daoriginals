@@ -24,8 +24,8 @@ const Navigation = () => {
         <ul className="side-nav" id="mobile-demo" style={{backgroundColor: 'rgba(255,210,221, 1)'}}>
         <li><a href='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '20px'}}><p>DawnAldousOriginals</p></a></li>
         <li><a href='/daoriginals' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Home</a></li>
-        <li><a href='/about' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>About</a></li>
-        <li><a href='/contact' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Contact</a></li>
+        <li><a href='https://ryan2429.github.io/about' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>About</a></li>
+        <li><a href='https://ryan2429.github.io/contact' style={{color: 'rgba(0, 181, 204, 1)', fontWeight: 'bold', fontSize: '15px'}}>Contact</a></li>
   </ul>
       </div>
     </nav>
