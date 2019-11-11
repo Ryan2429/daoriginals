@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav style={{marginBottom: '50px'}}>
       <div className="nav-wrapper" style={{fontFamily: 'Playfair Display', lineHeight: '180%'}}>
-        <Link to='/daoriginals' className="brand-logo">
+        <Link to='/' className="brand-logo">
         <h6 className="flow-text" style={{fontSize: '35px', paddingLeft: '30px', paddingTop: '5px', fontWeight: 'bold', paddingLeft: '9%'}}>
         DawnAldousOriginals
         </h6>
